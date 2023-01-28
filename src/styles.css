@@ -10,5 +10,18 @@ body {
 }
 
 body {
-  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(to bottom right, #9bafd9, #103783);
+  max-width: 120rem;
+  height: 100vh;
+}
+
+.form {
+  width: 40rem;
+  height: 50rem;
+  background-color: #023047;
+  border-radius: 8px;
 }
