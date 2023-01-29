@@ -10,7 +10,36 @@
   </head>
   <body>
     <div class="container">
-      <form action="" class="form"></form>
+      <div class="info">Info Form</div>
+      <form action="" class="form">
+        <div class="email-inpt-container input-container">
+          <label for="email">Email:</label>
+          <input type="email" name="email" class="email-input" />
+        </div>
+        <div class="country-inpt-container input-container">
+          <label for="country">Country:</label>
+          <input type="text" name="country" class="country-input" />
+        </div>
+        <div class="zip-inpt-container input-container">
+          <label for="zip">Zip Code:</label>
+          <input type="text" name="zip" class="zip" pattern="[0-9]*" />
+        </div>
+        <div class="password-inpt-container input-container">
+          <label for="passw">Password:</label>
+          <input type="password" name="passw" class="password-input" />
+        </div>
+        <div class="confirm-password-inpt-container input-container">
+          <label for="confirm-passw">Confirm Password</label>
+          <input
+            type="password"
+            name="re-passw"
+            class="confirm-password-input"
+          />
+        </div>
+        <div class="button">
+          <button class="btn">Submit</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>

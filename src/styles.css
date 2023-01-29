@@ -22,6 +22,7 @@ body {
 .form {
   width: 40rem;
   height: 50rem;
-  background-color: #023047;
+  background-color: #bfe1f2;
   border-radius: 8px;
+  box-shadow: 1px 5px 10px #464646;
 }
