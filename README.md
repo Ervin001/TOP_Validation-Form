@@ -15,4 +15,4 @@ Build a browser form which collects Email, Country, Zip Code, Password and Passw
 - [x] Create Html, CSS, and Js file. Link them
 - [x] Fill Html with form info
 - [x] Style form
-- [] Create class for the JS
+- [ ] Create class for the JS
