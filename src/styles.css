@@ -18,7 +18,7 @@ body {
   max-width: 160rem;
   height: 100vh;
   font-size: 2rem;
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
 }
 
 .container {
@@ -32,6 +32,12 @@ body {
   background-color: #bfe1f2;
   box-shadow: 1px 5px 10px #464646;
   border-radius: 8px;
+}
+
+.info {
+  font-weight: 800;
+  font-size: 3rem;
+  padding-top: 1rem;
 }
 
 .form {
@@ -51,5 +57,15 @@ label {
 
 input {
   flex: 1 0 auto;
-  height: 2.5rem;
+  height: 3rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  flex-grow: 1;
 }
