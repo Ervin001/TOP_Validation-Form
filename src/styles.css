@@ -60,6 +60,14 @@ input {
   height: 3rem;
 }
 
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
 .button {
   display: flex;
   align-items: center;
