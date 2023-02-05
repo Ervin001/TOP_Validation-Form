@@ -5,6 +5,7 @@ const zip = document.querySelector('.zip');
 const password = document.querySelector('password-input');
 const confirmPassword = document.querySelector('.confirm-password-input');
 const submitBtn = document.querySelector('btn');
+const emailError = document.querySelector('.error');
 
 form.addEventListener('submit', (event) => {
   // if the email field is valid, we let the form submit
